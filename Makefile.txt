@@ -1,0 +1,39 @@
+NAME = libft.a
+PROJ = libft
+FLAGS = -Wall -Wextra -Werror -std=gnu89 -g3
+DIR_H = includes/
+DIR_SRC = sources/
+SRC = $(patsubst %, $(DIR_SRC)%, $(shell ls $(DIR_SRC) | grep .c))
+OBJ = $(SRC:.c=.o)
+
+# Colors
+RED	= \x1b[31m
+GREEN	= \x1b[32m
+YELLOW  = \x1b[33m
+RESET	= \x1b[0m
+
+.PHONY: all, clean, fclean, re
+
+all: $(NAME)
+
+$(NAME): $(OBJ)
+@echo "[$(PROJ)]: $(YELLOW)Compiling libft$(RESET)"
+@ar rc $@ $^
+@ranlib $@
+@echo "[$(PROJ)]: $(GREEN)Done !$(RESET)"
+
+%.o: %.c
+@gcc -c $< -o $@ -I $(DIR_H) $(FLAGS)
+
+clean:
+@echo "[$(PROJ)]: $(RED)Removing $(PROJ) objects$(RESET)"
+@rm -rf $(OBJ)
+@echo "[$(PROJ)]: $(GREEN)Done !$(RESET)"
+
+fclean: clean
+@echo "[$(PROJ)]: $(RED)Removing $(NAME)$(RESET)"
+@rm -rf $(NAME)
+@echo "[$(PROJ)]: $(GREEN)Done !$(RESET)"
+
+re: fclean all
+Paul • Maintenant

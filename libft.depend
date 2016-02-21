@@ -1,0 +1,47 @@
+# depslib dependency file v1.0
+1456072033 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\main.c
+	<stdio.h>
+	<stdlib.h>
+	"libft.h"
+
+1456071818 d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\libft.h
+	<string.h>
+
+1455989096 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_strlen.c
+	<string.h>
+
+1455992728 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_strdup.c
+	<stdlib.h>
+	"libft.h"
+
+1455991126 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_strcpy.c
+	"libft.h"
+
+1455992899 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_strncpy.c
+	"libft.h"
+
+1455993650 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_strcat.c
+	"libft.h"
+
+1455994894 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_strncat.c
+	"libft.h"
+
+1456065138 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_memset.c
+	<stdlib.h>
+
+1456066396 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_bzero.c
+	<stdlib.h>
+	"libft.h"
+
+1456067755 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_memcpy.c
+	<stdlib.h>
+
+1456068859 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_memmove.c
+	<stdlib.h>
+
+1456070706 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_memchr.c
+	<stdlib.h>
+
+1456072441 source:d:\jules_local\ancien_bureau\epfl\ba3-4\progos\c 2016\libft\ft_memcmp.c
+	<stdlib.h>
+
